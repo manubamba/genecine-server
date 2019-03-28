@@ -1,12 +1,12 @@
 exports.default = [
   {
     id: '9000001',
-    name: 'Tramazac 100 MG Injection',
+    name: 'Contramal 100 MG Injection',
     genericDrugId: '100023',
-    pharmacy: 'Zydus Cadila',
+    pharmacy: 'Abbott Healthcare Pvt. Ltd.',
     category: 'Injection',
-    price: '2',
-    unit: "10's"
+    price: '11',
+    unit: "ml"
   },
   {
     id: '9000002',
@@ -14,7 +14,7 @@ exports.default = [
     genericDrugId: '100012',
     pharmacy: 'Abbott Healthcare Pvt. Ltd.',
     category: 'Tablet',
-    price: '2',
+    price: '25',
     unit: "10's"
   },
   {
@@ -23,7 +23,7 @@ exports.default = [
     genericDrugId: '100012',
     pharmacy: 'Emcure Pharmaceuticals Ltd.',
     category: 'Tablet',
-    price: '2',
+    price: '25',
     unit: "10's"
   },
   {
@@ -32,7 +32,7 @@ exports.default = [
     genericDrugId: '100012',
     pharmacy: 'Zydus Cadila',
     category: 'Tablet',
-    price: '2',
+    price: '37.5',
     unit: "10's"
   },
   {
@@ -41,16 +41,16 @@ exports.default = [
     genericDrugId: '100012',
     pharmacy: 'Astra Zeneca Pharma India Ltd.',
     category: 'Tablet',
-    price: '2',
+    price: '21.43',
     unit: "10's"
   },
   {
     id: '9000006',
-    name: 'Nimbid 100 MG Tablet',
+    name: 'Nise Tablet',
     genericDrugId: '100012',
-    pharmacy: 'Alembic Ltd.',
+    pharmacy: 'Dr Reddy\'s Laboratories Ltd',
     category: 'Tablet',
-    price: '2',
+    price: '74',
     unit: "10's"
   },
   {
@@ -59,7 +59,7 @@ exports.default = [
     genericDrugId: '100002',
     pharmacy: 'Glenmark Pharmaceuticals Ltd.',
     category: 'Tablet',
-    price: '2',
+    price: '50.5',
     unit: "10's"
   },
   {
@@ -68,7 +68,7 @@ exports.default = [
     genericDrugId: '100002',
     pharmacy: 'Lupin Ltd.',
     category: 'Tablet',
-    price: '2',
+    price: '50.5',
     unit: "10's"
   },
   {
@@ -77,7 +77,7 @@ exports.default = [
     genericDrugId: '100002',
     pharmacy: 'Unichem Laboratories Ltd.',
     category: 'Tablet',
-    price: '2',
+    price: '29.75',
     unit: "10's"
   },
   {
@@ -86,7 +86,7 @@ exports.default = [
     genericDrugId: '100002',
     pharmacy: 'Mankind Pharmaceuticals Ltd.',
     category: 'Tablet',
-    price: '2',
+    price: '24.14',
     unit: "10's"
   },
   {
@@ -95,7 +95,7 @@ exports.default = [
     genericDrugId: '100002',
     pharmacy: 'Abbott Healthcare Pvt. Ltd.',
     category: 'Tablet',
-    price: '2',
+    price: '22',
     unit: "10's"
   },
   {
@@ -104,7 +104,7 @@ exports.default = [
     genericDrugId: '100002',
     pharmacy: 'Glenmark Pharmaceuticals Ltd.',
     category: 'Tablet',
-    price: '2',
+    price: '22',
     unit: "10's"
   },
   {
@@ -113,8 +113,8 @@ exports.default = [
     genericDrugId: '100004',
     pharmacy: 'Mankind Pharmaceuticals Ltd.',
     category: 'Gel(Topical)',
-    price: '2',
-    unit: "10's"
+    price: '58',
+    unit: "20gm"
   },
   {
     id: '9000014',
@@ -122,8 +122,8 @@ exports.default = [
     genericDrugId: '100004',
     pharmacy: 'Biological E. Ltd.',
     category: 'Gel(Topical)',
-    price: '2',
-    unit: "10's"
+    price: '69',
+    unit: "30gm"
   },
   {
     id: '9000015',
@@ -131,17 +131,17 @@ exports.default = [
     genericDrugId: '100004',
     pharmacy: 'Torrent Pharmaceuticals Ltd.',
     category: 'Gel(Topical)',
-    price: '2',
-    unit: "10's"
+    price: '60',
+    unit: "30gm"
   },
   {
     id: '9000016',
     name: 'Fenak 1.16 % Gel',
     genericDrugId: '100004',
-    pharmacy: 'Ranbaxy Laboratories Ltd.',
+    pharmacy: 'Sun Pharmaceutical Industries Ltd.',
     category: 'Gel(Topical)',
-    price: '2',
-    unit: "10's"
+    price: '12',
+    unit: "30gm"
   },
   {
     id: '9000017',
@@ -149,8 +149,8 @@ exports.default = [
     genericDrugId: '100004',
     pharmacy: 'Zydus Cadila',
     category: 'Gel(Topical)',
-    price: '2',
-    unit: "10's"
+    price: '68.8',
+    unit: "30gm"
   },
   {
     id: '9000018',
@@ -158,8 +158,8 @@ exports.default = [
     genericDrugId: '100004',
     pharmacy: 'Novartis India Ltd.',
     category: 'Gel(Topical)',
-    price: '2',
-    unit: "10's"
+    price: '123',
+    unit: "118"
   },
   {
     id: '9000019',
@@ -167,7 +167,7 @@ exports.default = [
     genericDrugId: '100006',
     pharmacy: 'Lupin Ltd.',
     category: 'Tablet',
-    price: '2',
+    price: '28.56',
     unit: "10's"
   },
   {
@@ -176,7 +176,7 @@ exports.default = [
     genericDrugId: '100006',
     pharmacy: 'Torrent Pharmaceuticals Ltd.',
     category: 'Tablet',
-    price: '2',
+    price: '39',
     unit: "10's"
   },
   {
@@ -185,8 +185,8 @@ exports.default = [
     genericDrugId: '100006',
     pharmacy: 'Intas Pharmaceuticals Ltd.',
     category: 'Tablet',
-    price: '2',
-    unit: "10's"
+    price: '9.18',
+    unit: "15's"
   },
   {
     id: '9000021',
@@ -529,5 +529,15 @@ exports.default = [
     category: 'Tablet',
     price: '60',
     unit: "10's"
-  }
+  },
+  {
+    id: '9000060',
+    name: 'Tramazac Injection',
+    genericDrugId: '100023',
+    pharmacy: 'Zydus Cadila',
+    category: 'Injection',
+    price: '11',
+    unit: "ml"
+  },
+
 ];
