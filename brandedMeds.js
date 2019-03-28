@@ -529,7 +529,7 @@ exports.default =[
     "category": "Tablet",
     "price": "60",
     "unit": "10's"
-  }
+  },
   {
     "id": "9000060",
     "name": "Tramazac Injection",
