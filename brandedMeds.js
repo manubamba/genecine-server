@@ -1,57 +1,58 @@
-exports.default =[{
-    "id": "9000001",
-    "name": "Contramal 100 MG Injection",
-    "genericDrugId": "100023",
-    "pharmacy": "Abbott Healthcare Pvt. Ltd.",
-    "category": "Injection",
-    "price": "11",
-    "unit": "ml"
-  },
-  {
-    "id": "9000002",
-    "name": "Embulide 100 MG Tablet",
-    "genericDrugId": "100012",
-    "pharmacy": "Abbott Healthcare Pvt. Ltd.",
-    "category": "Tablet",
-    "price": "25",
-    "unit": "10's"
-  },
-  {
-    "id": "9000003",
-    "name": "Emsulide 100 MG Tablet",
-    "genericDrugId": "100012",
-    "pharmacy": "Emcure Pharmaceuticals Ltd.",
-    "category": "Tablet",
-    "price": "25",
-    "unit": "10's"
-  },
-  {
-    "id": "9000004",
-    "name": "Gersulide 100 MG Tablet",
-    "genericDrugId": "100012",
-    "pharmacy": "Zydus Cadila",
-    "category": "Tablet",
-    "price": "37.5",
-    "unit": "10's"
-  },
-  {
-    "id": "9000005",
-    "name": "Nimbid 100 MG Tablet",
-    "genericDrugId": "100012",
-    "pharmacy": "Astra Zeneca Pharma India Ltd.",
-    "category": "Tablet",
-    "price": "21.43",
-    "unit": "10's"
-  },
-  {
-    "id": "9000006",
-    "name": "Nise Tablet",
-    "genericDrugId": "100012",
-    "pharmacy": "Dr Reddy's Laboratories Ltd",
-    "category": "Tablet",
-    "price": "74",
-    "unit": "10's"
-  },
+exports.default =[
+//     {
+//     "id": "9000001",
+//     "name": "Contramal 100 MG Injection",
+//     "genericDrugId": "100023",
+//     "pharmacy": "Abbott Healthcare Pvt. Ltd.",
+//     "category": "Injection",
+//     "price": "11",
+//     "unit": "ml"
+//   },
+//   {
+//     "id": "9000002",
+//     "name": "Embulide 100 MG Tablet",
+//     "genericDrugId": "100012",
+//     "pharmacy": "Abbott Healthcare Pvt. Ltd.",
+//     "category": "Tablet",
+//     "price": "25",
+//     "unit": "10's"
+//   },
+//   {
+//     "id": "9000003",
+//     "name": "Emsulide 100 MG Tablet",
+//     "genericDrugId": "100012",
+//     "pharmacy": "Emcure Pharmaceuticals Ltd.",
+//     "category": "Tablet",
+//     "price": "25",
+//     "unit": "10's"
+//   },
+//   {
+//     "id": "9000004",
+//     "name": "Gersulide 100 MG Tablet",
+//     "genericDrugId": "100012",
+//     "pharmacy": "Zydus Cadila",
+//     "category": "Tablet",
+//     "price": "37.5",
+//     "unit": "10's"
+//   },
+//   {
+//     "id": "9000005",
+//     "name": "Nimbid 100 MG Tablet",
+//     "genericDrugId": "100012",
+//     "pharmacy": "Astra Zeneca Pharma India Ltd.",
+//     "category": "Tablet",
+//     "price": "21.43",
+//     "unit": "10's"
+//   },
+//   {
+//     "id": "9000006",
+//     "name": "Nise Tablet",
+//     "genericDrugId": "100012",
+//     "pharmacy": "Dr Reddy's Laboratories Ltd",
+//     "category": "Tablet",
+//     "price": "74",
+//     "unit": "10's"
+//   },
   {
     "id": "9000007",
     "name": "Aceclofenac 100 MG Tablet",
@@ -160,60 +161,60 @@ exports.default =[{
     "price": "123",
     "unit": "118"
   },
-  {
-    "id": "9000019",
-    "name": "Diclonac 100 MG Tablet",
-    "genericDrugId": "100006",
-    "pharmacy": "Lupin Ltd.",
-    "category": "Tablet",
-    "price": "28.56",
-    "unit": "10's"
-  },
-  {
-    "id": "9000020",
-    "name": "Diclomax 100 MG Tablet",
-    "genericDrugId": "100006",
-    "pharmacy": "Torrent Pharmaceuticals Ltd.",
-    "category": "Tablet",
-    "price": "39",
-    "unit": "10's"
-  },
-  {
-    "id": "9000020",
-    "name": "Voliran 100 MG Tablet",
-    "genericDrugId": "100006",
-    "pharmacy": "Intas Pharmaceuticals Ltd.",
-    "category": "Tablet",
-    "price": "9.18",
-    "unit": "15's"
-  },
-  {
-    "id": "9000021",
-    "name": "Voveran 100 MG Tablet",
-    "genericDrugId": "100006",
-    "pharmacy": "Novartis India Ltd.",
-    "category": "Tablet",
-    "price": "2",
-    "unit": "10's"
-  },
-  {
-    "id": "9000022",
-    "name": "Vovo 100 MG Tablet",
-    "genericDrugId": "100006",
-    "pharmacy": "Alembic Ltd.",
-    "category": "Tablet",
-    "price": "2",
-    "unit": "10's"
-  },
-  {
-    "id": "9000023",
-    "name": "Nudiclo 100 Tablet",
-    "genericDrugId": "100006",
-    "pharmacy": "Macleods Pharmaceuticals Pvt. Ltd.",
-    "category": "Tablet",
-    "price": "2",
-    "unit": "10's"
-  },
+//   {
+//     "id": "9000019",
+//     "name": "Diclonac 100 MG Tablet",
+//     "genericDrugId": "100006",
+//     "pharmacy": "Lupin Ltd.",
+//     "category": "Tablet",
+//     "price": "28.56",
+//     "unit": "10's"
+//   },
+//   {
+//     "id": "9000020",
+//     "name": "Diclomax 100 MG Tablet",
+//     "genericDrugId": "100006",
+//     "pharmacy": "Torrent Pharmaceuticals Ltd.",
+//     "category": "Tablet",
+//     "price": "39",
+//     "unit": "10's"
+//   },
+//   {
+//     "id": "9000020",
+//     "name": "Voliran 100 MG Tablet",
+//     "genericDrugId": "100006",
+//     "pharmacy": "Intas Pharmaceuticals Ltd.",
+//     "category": "Tablet",
+//     "price": "9.18",
+//     "unit": "15's"
+//   },
+//   {
+//     "id": "9000021",
+//     "name": "Voveran 100 MG Tablet",
+//     "genericDrugId": "100006",
+//     "pharmacy": "Novartis India Ltd.",
+//     "category": "Tablet",
+//     "price": "2",
+//     "unit": "10's"
+//   },
+//   {
+//     "id": "9000022",
+//     "name": "Vovo 100 MG Tablet",
+//     "genericDrugId": "100006",
+//     "pharmacy": "Alembic Ltd.",
+//     "category": "Tablet",
+//     "price": "2",
+//     "unit": "10's"
+//   },
+//   {
+//     "id": "9000023",
+//     "name": "Nudiclo 100 Tablet",
+//     "genericDrugId": "100006",
+//     "pharmacy": "Macleods Pharmaceuticals Pvt. Ltd.",
+//     "category": "Tablet",
+//     "price": "2",
+//     "unit": "10's"
+//   },
   {
     "id": "9000024",
     "name": "Diclofenac Sodium 50 MG Tablet",
@@ -528,13 +529,14 @@ exports.default =[{
     "category": "Tablet",
     "price": "60",
     "unit": "10's"
-  },
-  {
-    "id": "9000060",
-    "name": "Tramazac Injection",
-    "genericDrugId": "100023",
-    "pharmacy": "Zydus Cadila",
-    "category": "Injection",
-    "price": "11",
-    "unit": "ml"
-  }]
+  }
+//   {
+//     "id": "9000060",
+//     "name": "Tramazac Injection",
+//     "genericDrugId": "100023",
+//     "pharmacy": "Zydus Cadila",
+//     "category": "Injection",
+//     "price": "11",
+//     "unit": "ml"
+//   }
+]
