@@ -6,7 +6,7 @@ exports.default = [
     pharmacy: 'Abbott Healthcare Pvt. Ltd.',
     category: 'Injection',
     price: '11',
-    unit: "ml"
+    unit: 'ml'
   },
   {
     id: '9000002',
@@ -48,7 +48,7 @@ exports.default = [
     id: '9000006',
     name: 'Nise Tablet',
     genericDrugId: '100012',
-    pharmacy: 'Dr Reddy\'s Laboratories Ltd',
+    pharmacy: "Dr Reddy's Laboratories Ltd",
     category: 'Tablet',
     price: '74',
     unit: "10's"
@@ -114,7 +114,7 @@ exports.default = [
     pharmacy: 'Mankind Pharmaceuticals Ltd.',
     category: 'Gel(Topical)',
     price: '58',
-    unit: "20gm"
+    unit: '20gm'
   },
   {
     id: '9000014',
@@ -123,7 +123,7 @@ exports.default = [
     pharmacy: 'Biological E. Ltd.',
     category: 'Gel(Topical)',
     price: '69',
-    unit: "30gm"
+    unit: '30gm'
   },
   {
     id: '9000015',
@@ -132,7 +132,7 @@ exports.default = [
     pharmacy: 'Torrent Pharmaceuticals Ltd.',
     category: 'Gel(Topical)',
     price: '60',
-    unit: "30gm"
+    unit: '30gm'
   },
   {
     id: '9000016',
@@ -141,7 +141,7 @@ exports.default = [
     pharmacy: 'Sun Pharmaceutical Industries Ltd.',
     category: 'Gel(Topical)',
     price: '12',
-    unit: "30gm"
+    unit: '30gm'
   },
   {
     id: '9000017',
@@ -150,7 +150,7 @@ exports.default = [
     pharmacy: 'Zydus Cadila',
     category: 'Gel(Topical)',
     price: '68.8',
-    unit: "30gm"
+    unit: '30gm'
   },
   {
     id: '9000018',
@@ -159,7 +159,7 @@ exports.default = [
     pharmacy: 'Novartis India Ltd.',
     category: 'Gel(Topical)',
     price: '123',
-    unit: "118"
+    unit: '118'
   },
   {
     id: '9000019',
@@ -537,7 +537,6 @@ exports.default = [
     pharmacy: 'Zydus Cadila',
     category: 'Injection',
     price: '11',
-    unit: "ml"
-  },
-
+    unit: 'ml'
+  }
 ];
