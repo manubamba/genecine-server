@@ -14,19 +14,19 @@ exports.default = [
     //   unitSize: "10's",
     //   price: '5.7'
     // },
-    id: "100002",
-    name: "Aceclofenac 100 mg Tablets",
+    id: '100002',
+    name: 'Aceclofenac 100 mg Tablets',
     unitSize: "10's",
-    price: "3.84",
+    price: '3.84',
     uses: [
-      "Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.",
-      "Used to treat symptoms like tender and painful joints associated with Osteoarthritis.",
-      "Used to treat symptoms like stiffness and pain associated with Ankylosing Spondylitis."
+      'Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.',
+      'Used to treat symptoms like tender and painful joints associated with Osteoarthritis.',
+      'Used to treat symptoms like stiffness and pain associated with Ankylosing Spondylitis.'
     ],
     activeIngredients: [
       {
-        id: "Aceclofenac",
-        weight: "100 mg"
+        id: 'Aceclofenac',
+        weight: '100 mg'
       }
     ]
   },
@@ -37,24 +37,24 @@ exports.default = [
   //   price: "12.4"
   // },
   {
-    id: "100004",
-    name: "Diclofenac Gel ( Diclofenec Diethylamine 1.16 % w/w)",
-    unitSize: "15 g",
-    price: "8.22",
+    id: '100004',
+    name: 'Diclofenac Gel ( Diclofenec Diethylamine 1.16 % w/w)',
+    unitSize: '15 g',
+    price: '8.22',
     uses: [
-      "Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.",
-      "Used to treat symptoms like tender and painful joints associated with Osteoarthritis.",
-      "Used to treat symptoms like stiffness and pain associated with Ankylosing Spondylitis.",
-      "Used to relieve excessive pain and cramps during menstruation.",
-      "Used to relieve pain of sprains, strains, sports injuries etc.",
-      "Used to relieve acute pain in migraine.",
-      "Used to relieve swelling and pain in joints caused by the inflammation of the bursae.",
-      "Used to relieve pain and swelling associated with the tissue connecting the muscle and bones."
+      'Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.',
+      'Used to treat symptoms like tender and painful joints associated with Osteoarthritis.',
+      'Used to treat symptoms like stiffness and pain associated with Ankylosing Spondylitis.',
+      'Used to relieve excessive pain and cramps during menstruation.',
+      'Used to relieve pain of sprains, strains, sports injuries etc.',
+      'Used to relieve acute pain in migraine.',
+      'Used to relieve swelling and pain in joints caused by the inflammation of the bursae.',
+      'Used to relieve pain and swelling associated with the tissue connecting the muscle and bones.'
     ],
     activeIngredients: [
       {
-        id: "Diclofenac",
-        weight: "15 g"
+        id: 'Diclofenac',
+        weight: '15 g'
       }
     ]
   },
@@ -64,113 +64,135 @@ exports.default = [
   //   unitSize: "10's",
   //   price: "7.02"
   // },
-  // {
-  //   id: "100006",
-  //   name: "Diclofenac Sodium (SR) Tablets 100 mg",
-  //   unitSize: "10's",
-  //   price: "6.12"
-  // },
   {
-    id: "100007",
-    name: "Diclofenac Sodium 50 mg Tab",
+    id: '100006',
+    name: 'Diclofenac Sodium (SR) Tablets 100 mg',
+    activeIngredients: [
+      {
+        id: 'Diclofenac',
+        weight: '100mg'
+      }
+    ],
     unitSize: "10's",
-    price: "2.3",
+    price: '6.12',
     uses: [
-      "Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.",
-      "Used to treat symptoms like tender and painful joints associated with Osteoarthritis.",
-      "Used to treat symptoms like stiffness and pain associated with Ankylosing Spondylitis.",
-      "Used to relieve excessive pain and cramps during menstruation.",
-      "Used to relieve pain of sprains, strains, sports injuries etc.",
-      "Used to relieve acute pain in migraine.",
-      "Used to relieve swelling and pain in joints caused by the inflammation of the bursae.",
-      "Used to relieve pain and swelling associated with the tissue connecting the muscle and bones."
+      'Rheumatoid Arthritis',
+      'Osteoarthritis',
+      'Ankylosing Spondylitis',
+      'Dysmenorrhea',
+      'Mild to moderate pain',
+      'Migraine',
+      'Bursitis',
+      'Tendinitis'
+    ]
+  },
+  {
+    id: '100007',
+    name: 'Diclofenac Sodium 50 mg Tab',
+    unitSize: "10's",
+    price: '2.3',
+    uses: [
+      'Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.',
+      'Used to treat symptoms like tender and painful joints associated with Osteoarthritis.',
+      'Used to treat symptoms like stiffness and pain associated with Ankylosing Spondylitis.',
+      'Used to relieve excessive pain and cramps during menstruation.',
+      'Used to relieve pain of sprains, strains, sports injuries etc.',
+      'Used to relieve acute pain in migraine.',
+      'Used to relieve swelling and pain in joints caused by the inflammation of the bursae.',
+      'Used to relieve pain and swelling associated with the tissue connecting the muscle and bones.'
     ],
     activeIngredients: [
       {
-        id: "Diclofenac",
-        weight: "50 mg"
+        id: 'Diclofenac',
+        weight: '50 mg'
       }
     ]
   },
   {
-    id: "100008",
-    name: "Etoricoxilb 120mg Tab",
+    id: '100008',
+    name: 'Etoricoxilb 120mg Tab',
     unitSize: "10's",
-    price: "33.96",
+    price: '33.96',
     uses: [
-      "Used for relieving pain and swelling of joints associated with Osteoarthritis.",
-      "Used for relieving swelling, stiffness, and pain of joints caused due to Rheumatoid arthritis.",
-      "Used for the symptomatic treatment of Ankylosing spondylitis. This disease causes swelling of the spine and large joints.",
-      "Used to relieve pain and swelling of joints associated with gout."
+      'Used for relieving pain and swelling of joints associated with Osteoarthritis.',
+      'Used for relieving swelling, stiffness, and pain of joints caused due to Rheumatoid arthritis.',
+      'Used for the symptomatic treatment of Ankylosing spondylitis. This disease causes swelling of the spine and large joints.',
+      'Used to relieve pain and swelling of joints associated with gout.'
     ],
     activeIngredients: [
       {
-        id: "Etoricoxib",
-        weight: "120 mg"
+        id: 'Etoricoxib',
+        weight: '120 mg'
       }
     ]
   },
   {
-    id: "100009",
-    name: "Etoricoxilb 90mg Tab",
+    id: '100009',
+    name: 'Etoricoxilb 90mg Tab',
     unitSize: "10's",
-    price: "25.99",
+    price: '25.99',
     uses: [
-      "Used for relieving pain and swelling of joints associated with Osteoarthritis.",
-      "Used for relieving swelling, stiffness, and pain of joints caused due to Rheumatoid arthritis.",
-      "Used for the symptomatic treatment of Ankylosing spondylitis. This disease causes swelling of the spine and large joints.",
-      "Used to relieve pain and swelling of joints associated with gout."
+      'Used for relieving pain and swelling of joints associated with Osteoarthritis.',
+      'Used for relieving swelling, stiffness, and pain of joints caused due to Rheumatoid arthritis.',
+      'Used for the symptomatic treatment of Ankylosing spondylitis. This disease causes swelling of the spine and large joints.',
+      'Used to relieve pain and swelling of joints associated with gout.'
     ],
     activeIngredients: [
       {
-        id: "Etoricoxib",
-        weight: "90 mg"
+        id: 'Etoricoxib',
+        weight: '90 mg'
       }
     ]
   },
   {
-    id: "100010",
-    name: "Ibuprofen film coated Tablets 200mg",
+    id: '100010',
+    name: 'Ibuprofen film coated Tablets 200mg',
     unitSize: "10's",
-    price: "1.75",
+    price: '1.75',
     uses: [
-      "Used to relieve excessive pain and cramps during menstruation.",
-      "Used to treat symptoms like tender and painful joints associated with Osteoarthritis. ",
-      "Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.",
-      "Used to treat headache, back pain, and fever."
+      'Used to relieve excessive pain and cramps during menstruation.',
+      'Used to treat symptoms like tender and painful joints associated with Osteoarthritis. ',
+      'Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.',
+      'Used to treat headache, back pain, and fever.'
     ],
     activeIngredients: [
       {
-        id: "Ibuprofen",
-        weight: "200 mg"
+        id: 'Ibuprofen',
+        weight: '200 mg'
       }
     ]
   },
   {
-    id: "100011",
-    name: "Ibuprofen Tablets 400mg",
+    id: '100011',
+    name: 'Ibuprofen Tablets 400mg',
     unitSize: "15's",
-    price: "4.88",
+    price: '4.88',
     uses: [
-      "Used to relieve excessive pain and cramps during menstruation.",
-      "Used to treat symptoms like tender and painful joints associated with Osteoarthritis. ",
-      "Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.",
-      "Used to treat headache, back pain, and fever."
+      'Used to relieve excessive pain and cramps during menstruation.',
+      'Used to treat symptoms like tender and painful joints associated with Osteoarthritis. ',
+      'Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.',
+      'Used to treat headache, back pain, and fever.'
     ],
     activeIngredients: [
       {
-        id: "Ibuprofen",
-        weight: "400 mg"
+        id: 'Ibuprofen',
+        weight: '400 mg'
       }
     ]
   },
-  // {
-  //   id: "100012",
-  //   name: "Nimesulide 100 mg Tab",
-  //   unitSize: "10's",
-  //   price: "2.52",
-  //   uses: ["Acute Pain", "Osteoarthritic Pain", "Primary Dysmenorrhea"]
-  // },
+  {
+    id: '100012',
+    name: 'Nimesulide 100 mg Tab',
+    unitSize: "10's",
+    price: '2.52',
+    activeIngredients: [
+      {
+        id: 'Nimesulide',
+        weight: '100mg'
+      }
+    ],
+    uses: ['Acute Pain', 'Osteoarthritic Pain', 'Primary Dysmenorrhea']
+  },
   // {
   //   id: "100013",
   //   name: "Paracetamol + Diclofenac Sodium (325 mg + 50 mg) Tab",
@@ -178,18 +200,18 @@ exports.default = [
   //   price: "4.34"
   // },
   {
-    id: "100014",
-    name: "Serratiopeptidase Tablets 10 mg",
+    id: '100014',
+    name: 'Serratiopeptidase Tablets 10 mg',
     unitSize: "10's",
-    price: "5.97",
+    price: '5.97',
     uses: [
-      "Used to relieve swelling and pain associated with conditions like trauma, arthritis etc.",
-      "Used along with other medications to reduce fluid accumulation (edema) in the body."
+      'Used to relieve swelling and pain associated with conditions like trauma, arthritis etc.',
+      'Used along with other medications to reduce fluid accumulation (edema) in the body.'
     ],
     activeIngredients: [
       {
-        id: "Serratiopeptidase",
-        weight: "10 mg"
+        id: 'Serratiopeptidase',
+        weight: '10 mg'
       }
     ]
   },
@@ -243,17 +265,17 @@ exports.default = [
   //   unitSize: "15's",
   //   price: "8.03"
   // },
-  // {
-  //   id: "100023",
-  //   name: "Tramadol Hcl 100 mg Inj",
-  //   ingredients: [
-  //     {
-  //       name: "Tramadol",
-  //       potency: "100mg"
-  //     }
-  //   ],
-  //   unitSize: "2ml",
-  //   price: "8.03",
-  //   uses: ["Moderate to severe pain", "Chronic pain"]
-  // }
+  {
+    id: '100023',
+    name: 'Tramadol Hcl 100 mg Inj',
+    activeIngredients: [
+      {
+        name: 'Tramadol',
+        potency: '100mg'
+      }
+    ],
+    unitSize: '2ml',
+    price: '8.03',
+    uses: ['Moderate to severe pain', 'Chronic pain']
+  }
 ];
