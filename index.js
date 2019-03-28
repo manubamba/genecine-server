@@ -57,7 +57,7 @@ const resolvers = {
         name: brandedMed.name,
         unitSize: genericMed.unitSize,
         price: brandedMed.price,
-        ingredients: genericMed.ingredients,
+        ingredients: genericMed.activeIngredients,
         genericMed: {
           name: genericMed.name,
           price: genericMed.price
