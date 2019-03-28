@@ -4,6 +4,7 @@ exports.default = [
     name: 'Tramazac 100 MG Injection',
     genericDrugId: '100023',
     pharmacy: 'Zydus Cadila',
+    category: 'Injection',
     price: '2'
 },
     {
@@ -11,6 +12,7 @@ exports.default = [
     name: 'Embulide 100 MG Tablet',
     genericDrugId: '100012',
     pharmacy: 'Abbott Healthcare Pvt. Ltd.',
+    category: 'Tablet',
     price: '2'
 },
     {
@@ -18,6 +20,7 @@ exports.default = [
     name: 'Emsulide 100 MG Tablet',
     genericDrugId: '100012',
     pharmacy: 'Emcure Pharmaceuticals Ltd.',
+    category: 'Tablet',
     price: '2'
 },
     {
@@ -25,6 +28,7 @@ exports.default = [
     name: 'Gersulide 100 MG Tablet',
     genericDrugId: '100012',
     pharmacy: 'Zydus Cadila',
+    category: 'Tablet',
     price: '2'
 },
     {
@@ -32,6 +36,7 @@ exports.default = [
     name: 'Nimbid 100 MG Tablet',
     genericDrugId: '100012',
     pharmacy: 'Astra Zeneca Pharma India Ltd.',
+    category: 'Tablet',
     price: '2'
 },
     {
@@ -39,6 +44,7 @@ exports.default = [
     name: 'Nimbid 100 MG Tablet',
     genericDrugId: '100012',
     pharmacy: 'Alembic Ltd.',
+    category: 'Tablet',
     price: '2'
 },
 

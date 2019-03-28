@@ -2,11 +2,11 @@ exports.default = [{
     id: '100001',
     name: 'Aceclofenac + Paracetamol (100 mg + 325 mg) Tablets',
     activeIngredients: [{
-        id: 'Aceclofenac<id>',
+        id: 'Aceclofenac',
         weight: '100mg'
       },
       {
-        id: 'Paracetamol<id>',
+        id: 'Paracetamol',
         weight: '325mg'
       }
     ],
