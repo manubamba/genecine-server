@@ -1,14 +1,13 @@
-exports.default = [
-  {
+exports.default = [{
     //   id: '100001',
     //   name: 'Aceclofenac + Paracetamol (100 mg + 325 mg) Tablets',
     //   activeIngredients: [{
     //       id: 'Aceclofenac',
-    //       weight: '100mg'
+    //       potency: '100mg'
     //     },
     //     {
     //       id: 'Paracetamol',
-    //       weight: '325mg'
+    //       potency: '325mg'
     //     }
     //   ],
     //   unitSize: "10's",
@@ -23,12 +22,10 @@ exports.default = [
       'Used to treat symptoms like tender and painful joints associated with Osteoarthritis.',
       'Used to treat symptoms like stiffness and pain associated with Ankylosing Spondylitis.'
     ],
-    activeIngredients: [
-      {
-        id: 'Aceclofenac',
-        weight: '100 mg'
-      }
-    ]
+    activeIngredients: [{
+      name: 'Aceclofenac',
+      potency: '100 mg'
+    }]
   },
   // {
   //   id: "100003",
@@ -51,12 +48,10 @@ exports.default = [
       'Used to relieve swelling and pain in joints caused by the inflammation of the bursae.',
       'Used to relieve pain and swelling associated with the tissue connecting the muscle and bones.'
     ],
-    activeIngredients: [
-      {
-        id: 'Diclofenac',
-        weight: '15 g'
-      }
-    ]
+    activeIngredients: [{
+      name: 'Diclofenac',
+      potency: '15 g'
+    }]
   },
   // {
   //   id: "100005",
@@ -67,12 +62,10 @@ exports.default = [
   {
     id: '100006',
     name: 'Diclofenac Sodium (SR) Tablets 100 mg',
-    activeIngredients: [
-      {
-        id: 'Diclofenac',
-        weight: '100mg'
-      }
-    ],
+    activeIngredients: [{
+      name: 'Diclofenac',
+      potency: '100mg'
+    }],
     unitSize: "10's",
     price: '6.12',
     uses: [
@@ -101,12 +94,10 @@ exports.default = [
       'Used to relieve swelling and pain in joints caused by the inflammation of the bursae.',
       'Used to relieve pain and swelling associated with the tissue connecting the muscle and bones.'
     ],
-    activeIngredients: [
-      {
-        id: 'Diclofenac',
-        weight: '50 mg'
-      }
-    ]
+    activeIngredients: [{
+      name: 'Diclofenac',
+      potency: '50 mg'
+    }]
   },
   {
     id: '100008',
@@ -119,12 +110,10 @@ exports.default = [
       'Used for the symptomatic treatment of Ankylosing spondylitis. This disease causes swelling of the spine and large joints.',
       'Used to relieve pain and swelling of joints associated with gout.'
     ],
-    activeIngredients: [
-      {
-        id: 'Etoricoxib',
-        weight: '120 mg'
-      }
-    ]
+    activeIngredients: [{
+      name: 'Etoricoxib',
+      potency: '120 mg'
+    }]
   },
   {
     id: '100009',
@@ -137,12 +126,10 @@ exports.default = [
       'Used for the symptomatic treatment of Ankylosing spondylitis. This disease causes swelling of the spine and large joints.',
       'Used to relieve pain and swelling of joints associated with gout.'
     ],
-    activeIngredients: [
-      {
-        id: 'Etoricoxib',
-        weight: '90 mg'
-      }
-    ]
+    activeIngredients: [{
+      name: 'Etoricoxib',
+      potency: '90 mg'
+    }]
   },
   {
     id: '100010',
@@ -155,12 +142,10 @@ exports.default = [
       'Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.',
       'Used to treat headache, back pain, and fever.'
     ],
-    activeIngredients: [
-      {
-        id: 'Ibuprofen',
-        weight: '200 mg'
-      }
-    ]
+    activeIngredients: [{
+      name: 'Ibuprofen',
+      potency: '200 mg'
+    }]
   },
   {
     id: '100011',
@@ -173,24 +158,20 @@ exports.default = [
       'Used to treat symptoms like swelling, pain, and stiffness of joints associated with Rheumatoid Arthritis.',
       'Used to treat headache, back pain, and fever.'
     ],
-    activeIngredients: [
-      {
-        id: 'Ibuprofen',
-        weight: '400 mg'
-      }
-    ]
+    activeIngredients: [{
+      name: 'Ibuprofen',
+      potency: '400 mg'
+    }]
   },
   {
     id: '100012',
     name: 'Nimesulide 100 mg Tab',
     unitSize: "10's",
     price: '2.52',
-    activeIngredients: [
-      {
-        id: 'Nimesulide',
-        weight: '100mg'
-      }
-    ],
+    activeIngredients: [{
+      name: 'Nimesulide',
+      potency: '100mg'
+    }],
     uses: ['Acute Pain', 'Osteoarthritic Pain', 'Primary Dysmenorrhea']
   },
   // {
@@ -208,12 +189,10 @@ exports.default = [
       'Used to relieve swelling and pain associated with conditions like trauma, arthritis etc.',
       'Used along with other medications to reduce fluid accumulation (edema) in the body.'
     ],
-    activeIngredients: [
-      {
-        id: 'Serratiopeptidase',
-        weight: '10 mg'
-      }
-    ]
+    activeIngredients: [{
+      name: 'Serratiopeptidase',
+      potency: '10 mg'
+    }]
   },
   // {
   //   id: "100015",
@@ -268,12 +247,10 @@ exports.default = [
   {
     id: '100023',
     name: 'Tramadol Hcl 100 mg Inj',
-    activeIngredients: [
-      {
-        name: 'Tramadol',
-        potency: '100mg'
-      }
-    ],
+    activeIngredients: [{
+      nameme: 'Tramadol',
+      potency: '100mg'
+    }],
     unitSize: '2ml',
     price: '8.03',
     uses: ['Moderate to severe pain', 'Chronic pain']

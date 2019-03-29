@@ -1,12 +1,15 @@
 // import { ApolloServer, gql } from 'apollo-server';
-const { ApolloServer, gql } = require('apollo-server');
+const {
+  ApolloServer,
+  gql
+} = require('apollo-server');
 const genericMeds = require('./genericMeds').default;
 const brandedMeds = require('./brandedMeds').default;
 const R = require('ramda');
 
 // Type definitions define the "shape" of your data and specify
 // which ways the data can be fetched from the GraphQL server.
-const typeDefs = gql`
+const typeDefs = gql `
   # Comments in GraphQL are defined with the hash (#) symbol.
 
   type Ingredient {
@@ -15,6 +18,7 @@ const typeDefs = gql`
   }
 
   type MedPriceDetail {
+    id: ID
     name: String
     price: String
     pharmacy: String
@@ -25,6 +29,7 @@ const typeDefs = gql`
     name: String
     unitSize: String
     price: String
+    pharmacy: String    
     ingredients: [Ingredient]
     genericMed: MedPriceDetail
     brandedAlternatives: [MedPriceDetail]
@@ -47,11 +52,14 @@ const resolvers = {
     medicines: (parent, args, context, info) => {
       return [R.find(R.propEq('id', args.id), brandedMeds)];
     },
-    medicine: (_, { id }) => {
+    medicine: (_, {
+      id
+    }) => {
       const brandedMed = R.find(R.propEq('id', id), brandedMeds);
       const genericMed = R.find(R.propEq('id', brandedMed.genericDrugId), genericMeds);
       console.log(brandedMed);
       console.log(genericMed);
+      console.log(R.find(R.propEq('genericDrugId', brandedMed.genericDrugId), brandedMeds));
       return {
         id: brandedMed.id,
         name: brandedMed.name,
@@ -62,10 +70,13 @@ const resolvers = {
           name: genericMed.name,
           price: genericMed.price
         },
-        uses: genericMed.uses
+        uses: genericMed.uses,
+        brandedAlternatives: R.pipe(R.filter(R.propEq('genericDrugId', brandedMed.genericDrugId)), R.without([brandedMed]))(brandedMeds)
       }
     },
-    getMedicinesByName: (_, { name }) =>
+    getMedicinesByName: (_, {
+        name
+      }) =>
       R.filter(
         R.pipe(
           R.prop('name'),
@@ -87,6 +98,10 @@ const server = new ApolloServer({
 
 // This `listen` method launches a web-server.  Existing apps
 // can utilize middleware options, which we'll discuss later.
-server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
+server.listen({
+  port: process.env.PORT || 4000
+}).then(({
+  url
+}) => {
   console.log(`🚀  Server ready at ${url}`);
 });

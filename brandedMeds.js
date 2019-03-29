@@ -1,5 +1,4 @@
-exports.default =[
-    {
+exports.default = [{
     "id": "9000001",
     "name": "Contramal 100 MG Injection",
     "genericDrugId": "100023",
@@ -194,7 +193,7 @@ exports.default =[
     "genericDrugId": "100006",
     "pharmacy": "Novartis India Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "12",
     "unit": "10's"
   },
   {
@@ -203,7 +202,7 @@ exports.default =[
     "genericDrugId": "100006",
     "pharmacy": "Alembic Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "12",
     "unit": "10's"
   },
   {
@@ -212,7 +211,7 @@ exports.default =[
     "genericDrugId": "100006",
     "pharmacy": "Macleods Pharmaceuticals Pvt. Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "12",
     "unit": "10's"
   },
   {
@@ -221,7 +220,7 @@ exports.default =[
     "genericDrugId": "100007",
     "pharmacy": "Troikaa Pharmaceuticals Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "22",
     "unit": "10's"
   },
   {
@@ -230,7 +229,7 @@ exports.default =[
     "genericDrugId": "100007",
     "pharmacy": "Zuventus Healthcare Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "22",
     "unit": "10's"
   },
   {
@@ -239,7 +238,7 @@ exports.default =[
     "genericDrugId": "100007",
     "pharmacy": "Micro Labs Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "22",
     "unit": "10's"
   },
   {
@@ -248,7 +247,7 @@ exports.default =[
     "genericDrugId": "100007",
     "pharmacy": "Zydus Cadila",
     "category": "Tablet",
-    "price": "2",
+    "price": "22",
     "unit": "10's"
   },
   {
@@ -257,7 +256,7 @@ exports.default =[
     "genericDrugId": "100007",
     "pharmacy": "Novartis India Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "22",
     "unit": "10's"
   },
   {
@@ -266,7 +265,7 @@ exports.default =[
     "genericDrugId": "100007",
     "pharmacy": "Novartis India Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "22",
     "unit": "10's"
   },
   {
@@ -275,7 +274,7 @@ exports.default =[
     "genericDrugId": "100008",
     "pharmacy": "Goddres Pharmaceuticals Pvt. Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "111",
     "unit": "10's"
   },
   {
@@ -284,7 +283,7 @@ exports.default =[
     "genericDrugId": "100008",
     "pharmacy": "Macleods Pharmaceuticals Pvt. Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "111",
     "unit": "10's"
   },
   {
@@ -293,7 +292,7 @@ exports.default =[
     "genericDrugId": "100008",
     "pharmacy": "Zydus Cadila",
     "category": "Tablet",
-    "price": "2",
+    "price": "111",
     "unit": "10's"
   },
   {
@@ -302,7 +301,7 @@ exports.default =[
     "genericDrugId": "100008",
     "pharmacy": "Dr. Reddys Laboratories Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "111",
     "unit": "10's"
   },
   {
@@ -311,7 +310,7 @@ exports.default =[
     "genericDrugId": "100008",
     "pharmacy": "Torrent Pharmaceuticals Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "111",
     "unit": "10's"
   },
   {
@@ -320,7 +319,7 @@ exports.default =[
     "genericDrugId": "100008",
     "pharmacy": "Mankind Pharmaceuticals Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "111",
     "unit": "10's"
   },
   {
@@ -329,7 +328,7 @@ exports.default =[
     "genericDrugId": "100009",
     "pharmacy": "Zydus Cadila",
     "category": "Tablet",
-    "price": "2",
+    "price": "131.5",
     "unit": "10's"
   },
   {
@@ -338,7 +337,7 @@ exports.default =[
     "genericDrugId": "100009",
     "pharmacy": "Mankind Pharmaceuticals Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "131.5",
     "unit": "10's"
   },
   {
@@ -347,7 +346,7 @@ exports.default =[
     "genericDrugId": "100009",
     "pharmacy": "Glenmark Pharmaceuticals Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "131.5",
     "unit": "10's"
   },
   {
@@ -356,7 +355,7 @@ exports.default =[
     "genericDrugId": "100009",
     "pharmacy": "Micro Labs Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "131.5",
     "unit": "10's"
   },
   {
@@ -365,7 +364,7 @@ exports.default =[
     "genericDrugId": "100009",
     "pharmacy": "Alkem Laboratories Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "131.5",
     "unit": "10's"
   },
   {
@@ -374,7 +373,7 @@ exports.default =[
     "genericDrugId": "100009",
     "pharmacy": "Glenmark Pharmaceuticals Ltd.",
     "category": "Tablet",
-    "price": "2",
+    "price": "131.5",
     "unit": "10's"
   },
   {
