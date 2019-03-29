@@ -248,7 +248,7 @@ exports.default = [{
     id: '100023',
     name: 'Tramadol Hcl 100 mg Inj',
     activeIngredients: [{
-      nameme: 'Tramadol',
+      name: 'Tramadol',
       potency: '100mg'
     }],
     unitSize: '2ml',
